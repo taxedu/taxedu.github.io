@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>부가세 도우미 연결</title>
+</head>
+<body>
+  <p>부가세 도우미</p>
+  <p><a id="link" href="#">자동으로 이동하지 않으면 여기를 누르세요.</a></p>
+  <script>
+    // 채팅 주소가 바뀌면 아래 주소만 수정하세요.
+    const url = "https://chatgpt.com/share/6adc7c67-2c1c-83ee-8d5f-4832ba3eed73";
+    document.getElementById("link").href = url;
+    window.location.replace(url);
+  </script>
+</body>
+</html>
